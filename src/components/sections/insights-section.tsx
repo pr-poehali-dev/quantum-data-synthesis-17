@@ -5,24 +5,24 @@ import { ArrowRight } from "lucide-react"
 
 const articles = [
   {
-    title: "Искусство визуального сторителлинга",
-    category: "Дизайн",
-    image: "/visual-storytelling-design-article.jpg",
+    title: "Как выбрать идеальный журнал в подарок",
+    category: "Советы",
+    image: "https://cdn.poehali.dev/projects/50c38ed4-8790-489b-ae26-cb8ef0446ac5/files/35e36620-36e1-4b2e-93e0-140955597294.jpg",
   },
   {
-    title: "Как создать личный бренд онлайн",
-    category: "Стратегия",
-    image: "/personal-branding-digital-marketing.jpg",
+    title: "Топ-5 идей подарков на свадьбу",
+    category: "Свадьба",
+    image: "https://cdn.poehali.dev/projects/50c38ed4-8790-489b-ae26-cb8ef0446ac5/files/3f190f01-0441-4a9e-9e5e-cf15405581f6.jpg",
   },
   {
-    title: "Тренды типографики 2025",
-    category: "Типографика",
-    image: "/typography-trends-modern-fonts.jpg",
-  },
-  {
-    title: "Минимализм в дизайне портфолио",
+    title: "Почему журнал-подарок лучше обычного букета",
     category: "Вдохновение",
-    image: "/placeholder.svg?height=200&width=300",
+    image: "https://cdn.poehali.dev/projects/50c38ed4-8790-489b-ae26-cb8ef0446ac5/files/28327f76-d973-4edc-b459-374751cd8bbd.jpg",
+  },
+  {
+    title: "Как сохранить воспоминания на всю жизнь",
+    category: "История",
+    image: "https://cdn.poehali.dev/projects/50c38ed4-8790-489b-ae26-cb8ef0446ac5/files/35e36620-36e1-4b2e-93e0-140955597294.jpg",
   },
 ]
 
@@ -43,7 +43,7 @@ export function InsightsSection() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
         >
-          Статьи
+          Блог & советы
         </motion.p>
 
         <div className="divide-y divide-border">

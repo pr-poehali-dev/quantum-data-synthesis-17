@@ -3,18 +3,18 @@ import { Check } from "lucide-react"
 
 const plans = [
   {
-    name: "Старт",
-    price: "1 200",
-    period: " руб/мес",
-    description: "Для личного портфолио",
-    features: ["5 страниц", "Свой домен", "Базовая аналитика", "Поддержка по email"],
+    name: "Мини-журнал",
+    price: "1 490",
+    period: " руб",
+    description: "Компактный подарок на любой повод",
+    features: ["40 страниц", "Красивая обложка", "Тематическое оформление", "Упаковка в подарок"],
   },
   {
-    name: "Про",
-    price: "2 900",
-    period: " руб/мес",
-    description: "Для растущих авторов",
-    features: ["Безлимит страниц", "Приоритет поддержки", "Расширенная аналитика", "Свой брендинг", "Работа в команде"],
+    name: "Журнал-люкс",
+    price: "2 990",
+    period: " руб",
+    description: "Премиальный подарок на свадьбу",
+    features: ["80 страниц", "Бархатная обложка", "Свадебная тематика", "Лента-закладка", "Фирменная коробка", "Открытка в подарок"],
     popular: true,
   },
 ]
@@ -29,8 +29,8 @@ export function PricingSection() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
         >
-          <h2 className="text-3xl md:text-5xl font-serif text-foreground">Простые и понятные цены</h2>
-          <p className="text-muted-foreground mt-4 max-w-md mx-auto">Начните бесплатно, платите когда готовы.</p>
+          <h2 className="text-3xl md:text-5xl font-serif text-foreground">Наши журналы-подарки</h2>
+          <p className="text-muted-foreground mt-4 max-w-md mx-auto">Каждый журнал упакован с любовью и готов удивить.</p>
         </motion.div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-3xl mx-auto">
@@ -75,7 +75,7 @@ export function PricingSection() {
                     : "bg-secondary text-foreground hover:bg-accent/30"
                 }`}
               >
-                Начать
+                Заказать
               </button>
             </motion.div>
           ))}
